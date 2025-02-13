@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1366 768">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: url(#Logo_Pattern);
+      }
+    </style>
+    <pattern id="Logo_Pattern" data-name="Logo Pattern" x="0" y="0" width="144" height="104.77" patternTransform="translate(-1386)" patternUnits="userSpaceOnUse" viewBox="0 0 144 104.77">
+      <g>
+        <rect class="cls-1" y="0" width="144" height="104.77"/>
+        <polygon points="174.57 109.33 144.01 157.15 113.33 109.33 113.33 52.38 144.05 83.1 174.67 52.48 174.57 109.33"/>
+        <polygon points="30.57 109.33 .01 157.15 -30.67 109.33 -30.67 52.38 .05 83.1 30.67 52.48 30.57 109.33"/>
+        <polygon points="174.57 4.56 144.01 52.38 113.33 4.56 113.33 -52.38 144.05 -21.67 174.67 -52.29 174.57 4.56"/>
+        <polygon points="102.57 56.94 72.01 104.77 41.33 56.94 41.33 0 72.05 30.71 102.67 .1 102.57 56.94"/>
+        <polygon points="30.57 4.56 .01 52.38 -30.67 4.56 -30.67 -52.38 .05 -21.67 30.67 -52.29 30.57 4.56"/>
+      </g>
+    </pattern>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <rect class="cls-2" width="1366" height="768"/>
+  </g>
+</svg>
