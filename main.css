@@ -1,5 +1,5 @@
-body{background-color: #49805E;
-    background-size: cover;
+body{
+    background-color: #49805E;
     font-family: "Montserrat", serif;
 }
 
@@ -18,7 +18,10 @@ h2{
 /* card styling */
 .card{
     /* what centers the image */
-    background-image: url("images/");
+    background-image: url("images/card-background.svg"); 
+    background-size: 120%;
+    background-position: -375px;
+    background-repeat: no-repeat;
       margin: auto;
       position: relative;
       width: 500px;
@@ -42,15 +45,6 @@ h2{
     right: 20px;
 }
 
-/* logo styling */
-.logo-container svg {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    padding-top: 10px;
-    padding-left: 10px;
-}
-
 /* icon styling */
 .parent-container {
     position: relative; /* Ensure the parent container has relative positioning */
@@ -69,14 +63,22 @@ h2{
 
 /* icon sizing */
 .icon-container svg {
-    width: 50px; /* Set a consistent width */
-    height: 50px; /* Set a consistent height */
+    width: 55px; /* Set a consistent width */
+    height: 55px; /* Set a consistent height */
     display: block;
     margin: auto; /* Center the SVG within the grid cell */
     transition: transform 0.3s ease, fill 0.3s ease;
 }
+
+/* icon animation */
 .icon-container svg:hover {
-    transform: scale(1.2); /* Scale the icon on hover */
+    transform: scale(1.2); 
     /* fill: #1A1A1A; */
     fill: white;
+}
+
+/* custom cursor */
+html, a {
+    cursor: url('images/cursor.png'), auto;	
+    color: white;
 }
