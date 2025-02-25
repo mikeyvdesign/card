@@ -80,5 +80,4 @@ h2{
 /* custom cursor */
 html, a {
     cursor: url('images/cursor.png'), auto;	
-    color: white;
 }
