@@ -108,12 +108,12 @@ html, a {
 }
 
 /* Mobile settings */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     .card {
         background-size: 130%;
-        background-position: -350px;
-        width: 80%; 
-        height: 30%; 
+        background-position: -330px;
+        width: 75%; 
+        height: 25%; 
         padding: 15px; 
     }
 
